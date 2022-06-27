@@ -18,10 +18,30 @@
 
 	<%@include file="navbar.jsp"%>
 
-	<div class="container-fluid p-5 bg-success text-center"
-		style="height: 200px;">
+	<div class="container-fluid p-3 bg-success text-center"
+		style="height: 100px;">
 		<h1 class="text-center text-white">${bannerTitle }</h1>
-		<button class="btn btn-outline-warning">Start here</button>
+		<!-- <button class="btn btn-outline-warning">Start here</button> -->
+		
+		<div class="container mt-5">
+		<div class="row">
+
+			<div class="col-4">
+
+ 
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">Learn Code With Raushan Ranjan</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Work on products that support the worlds most innovative teams... </h6>
+						<p class="card-text">This Channel provide you a technical content like Java Programming , Python Programming , C Programming , PHP Programing , Android Development etc. Lean how to make softwares here.</p>
+						<a href="#" class="card-link">Card link</a> <a href="#"
+							class="card-link">Another link</a>
+					</div> 
+				</div> 
+                </div>
+                </div>
+
+			</div>
 		
 		
 		<script
